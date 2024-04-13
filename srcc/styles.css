@@ -1,0 +1,78 @@
+
+    h1 {
+        text-align: center;
+        color:black;
+        font-size: 38px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    h2 {
+        text-align: center;
+        color: red;
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 2px;
+    }
+    img {
+        max-width:300px;
+        display: block;
+        margin: 0 auto; 
+        border-radius: 5px;
+    }
+    .custom-hr {
+        border: 1px solid black;
+    }
+    p {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .more-info {
+        display: block;
+        margin-top: 10px;
+        color: red;
+        text-decoration: none;
+    }
+    .more-info:hover {
+        text-decoration: underline;
+    }
+    button {
+        padding: 20px 70px;
+        margin-top: 20px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 300;
+        background-color: black;
+        color:white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 150ms ease-in-out;
+        box-shadow: 0.3s;
+        box-shadow: 0 2px 4px rgba(2, 1, 1, 0.1);
+    }
+    button:hover {
+       box-shadow: 0 4px 8px rgba(12, 12, 12, 0.2);
+       color:white; 
+       opacity: 0.9;
+       background-color: rgb(54, 52, 52);
+    }
+    .center {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .content {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 10px 40px;
+        background-color: aqua;
+        border-radius: 10px;
+    }
+    .highlight-text {
+        color: blueviolet;
+        text-decoration: underline;
+    }
